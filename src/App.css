@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  /* Move header to bottom for mobile screens */
+  .mobile-header {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    border-top: 1px solid gray;
+  }
+
+  /* Adjust text size and layout for smaller screens */
+  .profile-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-section img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .company-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
